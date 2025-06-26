@@ -1,6 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
+% Author : Nathan Dinh
 % Based off of: https://github.com/sb2nov/resume
 % License : MIT
 %------------------------
@@ -112,10 +112,10 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Jake Ryan} \\ \vspace{1pt}
-    \small 123-456-7890 $|$ \href{mailto:x@x.com}{\underline{jake@su.edu}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/jake}} $|$
-    \href{https://github.com/...}{\underline{github.com/jake}}
+    \textbf{\Huge \scshape Nathan Dinh} \\ \vspace{7pt}
+    \small 6692132635 $|$ \href{mailto:nathan.d.workplace@gmail.com}{{\underline{nathan.d.workplace@gmail.com}}} $|$ 
+    \href{https://www.linkedin.com/in/dinh97/}{\underline{linkedin.com/in/dinh97}} $|$
+    \href{https://github.com/nathan-dinh-dev}{\underline{github.com/nathan-dinh-dev}}
 \end{center}
 
 
@@ -123,11 +123,11 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
+      {San Jose State University}{San Jose, CA}
+      {Bachelor of Science in Computer Science}{Sep. 2023 -- Dec 2025}
     \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+      {HCMC University of Technology}{Vietnam}
+      {Bachelor of Science in Electrical Engineering}{Aug. 2015 -- May 2019}
   \resumeSubHeadingListEnd
 
 
@@ -136,13 +136,14 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
+      {Software Engineer Freelancer}{Jan. 2025 -- Present}
+      {Ha Noi Bistros}{San Jose, CA}
       \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
-      \resumeItemListEnd
+        \resumeItem{Engineered a robust inventory management system using Next.js, AWS Rekognition for item verification, and a MySQL relational database.}
+        \resumeItem{Designed and deployed a scalable waitlist system using React Native, AWS Lambda and SNS, supporting 5 restaurant locations with infrastructure prepared for multi-store expansion.}
+        \resumeItem{Reduced reliance on third-party platforms and manual processes, resulting in estimated annual savings of \$65,000 in subscription and labor costs for the business owner.}
+        \resumeItem{Utilized CI/CD workflows, Git, and modular architecture to ensure rapid iteration, system reliability, and long-term maintainability.}
+    \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
 %    \resumeSubSubheading
@@ -155,24 +156,20 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
+      {Software Development Engineer Intern}{May. 2024 -- Oct. 2024}
+      {Amoeba Software}{Lakewood, CA}
       \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+        \resumeItem{Developed and maintained various front-end features using Next.js, Auth0, and TypeScript.}
+        \resumeItem{Implemented Redis caching to optimize search queries, reducing average response time by 20\%.}
+        \resumeItem{Implemented Redux to manage state and API interactions across seven routes, ensuring smooth front-end and back-end integration.}
     \resumeItemListEnd
 
     \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
+      {Software Development Engineer Intern}{May. 2024 -- Aug. 2024}
+      {Graph Academy - Remote}{Cupertino, CA}
       \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+        \resumeItem{Maintained web-based platform with Next.js and TypeScript for Visual 2nd Brain project.}
+        \resumeItem{Contributed to backend by integrating Supabase and a background removal API using Node.js, cutting image processing time by 30\%.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -182,37 +179,44 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+          {\textbf{Face Recognition Attendance System} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{Jan. 2025 -- Present}
+            \resumeItemListStart
+            \resumeItem{Developed a full-stack attendance tracking system with a Flask REST API and React frontend.}
+            \resumeItem{Implemented face recognition using YOLOv9, trained on custom datasets to accurately identify individuals.}
+            \resumeItem{Persisted attendance data in PostgreSQL and deployed the containerized stack using Docker.}
+            \resumeItem{Utilized Redis and Celery for asynchronous background tasks such as image processing and data logging.}
+        \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Naptastic} $|$ \emph{Next.js, TypeScript, Clerk, Stripe, Supabase, Prisma, GitHub Actions}}{Sep. 2024 -- Jan 2025}
           \resumeItemListStart
-            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-            \resumeItem{Visualized GitHub data to show collaboration}
-            \resumeItem{Used Celery and Redis for asynchronous tasks}
+            \resumeItem{Developed an end-to-end fullstack Airbnb-style web application with front-end design using TailwindCSS and Shadcn/UI to create responsive layout components.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
-          \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
-          \resumeItemListEnd
+          {\textbf{Anna Kitchen} $|$ \emph{React, Stripe, OAuth2, Express, MySQL, GitHub Actions}}{Jun. 2023 -- Dec. 2023}
+        \resumeItemListStart
+            \resumeItem{Developed a fully functional online food ordering web application with responsive UI using Reactstrap.}
+            \resumeItem{Integrated Stripe for secure payments, OAuth2 for authentication, and automated CI/CD with GitHub Actions.}
+            \resumeItem{Partnered with a friend to launch the application in production, supporting food sales and generating over \$20,000 in annual revenue.}
+        \resumeItemListEnd
     \resumeSubHeadingListEnd
 
-
-
-%
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+     \textbf{Languages}{: JavaScript, TypeScript, Java, Python, C/C++, SQL, HTML/CSS} \\
+     \textbf{Frameworks and Libraries}{: React, Redux, Flask, Zod, Next.js, Prisma, MongoDB, Strapi, Express.js, Node.js, MySQL, Redis, TailwindCSS, Shadcn/ui, Reactstrap, TanStack, FastAPI.} \\
+     \textbf{Developer Tools}{: Git, Docker, Jira, Jenkins, Firebase, Supabase, Auth0, AWS, Vercel, Render} \\
     }}
  \end{itemize}
 
+%-----------PROGRAMMING SKILLS-----------
+% \section{Certificates}
+% \begin{itemize}[leftmargin=0.15in, label={}]
+%   \item \small{
+%     MIT Professional Certificate in Coding: Full Stack Development with MERN \hfill \textit{Oct. 2023}
+%   }
+% \end{itemize}
 
 %-------------------------------------------
 \end{document}
